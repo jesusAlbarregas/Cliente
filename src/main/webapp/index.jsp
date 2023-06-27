@@ -29,7 +29,7 @@
                 <li><a href="${contexto}/Eleccion?opcion=Ejer7">Cambiar la clase CSS de un elemento</a></li>
                 <li><a href="${contexto}/Eleccion?opcion=Ejer8">Select anidados</a></li>
                 <li><a href="${contexto}/Eleccion?opcion=Ejer9">Imagen previa y subida al servidor</a></li>
-                <li><a href="${contexto}/Eleccion?opcion=Ejer10">DNI válido y correcto</a></li>
+                <li><a href="${contexto}/Eleccion?opcion=EjerA">DNI válido y correcto</a></li>
             </ol>
         </div>
     </body>

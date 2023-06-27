@@ -26,5 +26,6 @@
             </div>
         </div>       
     </body>
-    <script type="text/javascript" src="${contexto}/js/ejer10.js"></script>
+    
 </html>
+<script type="text/javascript" src="${contexto}/js/ejerA.js"></script>

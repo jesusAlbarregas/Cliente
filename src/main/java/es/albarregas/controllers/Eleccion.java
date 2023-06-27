@@ -62,8 +62,8 @@ public class Eleccion extends HttpServlet {
             case "Ejer9":
                 url.append("Ejercicio9.jsp");
                 break;
-            case "Ejer10":
-                url.append("Ejercicio10.jsp");
+            case "EjerA":
+                url.append("EjercicioA.jsp");
                 break;
         }
         url.insert(0, "/JSP/");
