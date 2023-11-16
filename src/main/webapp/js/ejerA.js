@@ -6,7 +6,7 @@ $(document).ready(function () {
         
         let dniIntroducido = $(this).val();
         let patrondni = new RegExp("^[0-9]{8}$");
-        let resultado = patrondni.test(dniIntroducido);
+//        let resultado = patrondni.test(dniIntroducido);
         let resultado = true;
         if (resultado === true) {
 
