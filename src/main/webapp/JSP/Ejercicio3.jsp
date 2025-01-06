@@ -1,17 +1,12 @@
-<%-- 
-    Document   : Ejercicio1
-    Created on : 04-dic-2019, 10:00:28
-    Author     : jesus
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ejercicio3</title>
-        <link rel="stylesheet" type="text/css" href="${estilo}" />
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="${applicationScope.estilo}" />
+        <script src="${applicationScope.contexto}/js/ejer3_1.js" defer></script>
+        <%--<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>--%>
     </head>
     <body>
         <div id="principal">
@@ -20,13 +15,13 @@
                 <p id="mensaje"></p>
                 
                 <div class="b1">
-                    <input class="boton" type="button" value="Mensaje" id="enviar" />
+                    <input class="boton" type="button" value="Mensaje" id="btnEnviar" />
                 </div>
                 <div class="b2">
-                    <input class="boton" type="button" value="Indice" id="volver" onclick="location.href = 'Finalizar'" />
+                    <input class="boton" type="button" value="Indice" id="btnVolver" onclick="location.href = 'Finalizar'" />
                 </div>
             </div>
         </div>       
     </body>
-    <script type="text/javascript" src="${contexto}/js/ejer3.js"></script>
+    <%--<script type="text/javascript" src="${applicationScope.contexto}/js/ejer3.js"></script>--%>
 </html>
